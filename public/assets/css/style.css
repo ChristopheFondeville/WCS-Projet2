@@ -1,0 +1,47 @@
+:root {
+    --primaryColor: #B98B0D;
+    --secondaryColor: #986B16;
+    --thirdColor: #DBA900;
+    --fourthColor: #000000;
+    --fithColor: #011E2A;
+}
+
+body {
+    background-color: #eee
+}
+
+.nav-link:hover {
+    background-color: #525252 !important
+}
+
+.nav-link .bi {
+    transition: all 1s
+}
+
+.nav-link:hover .bi {
+    transform: rotate(360deg)
+}
+
+.bg-blue {
+    background-color: var(--fithColor);
+}
+
+.nav-pills .nav-link.active {
+    background-color: var(--primaryColor);
+}
+.bg-orange {
+    background-color: var(--thirdColor);
+}
+
+.uk-countdown-number {
+    font-size: 2.5rem;
+    font-weight: bold
+}
+
+.uk-countdown-separator {
+    font-size: 2rem;
+}
+
+#sidebarMenu {
+    z-index: 10;
+}
